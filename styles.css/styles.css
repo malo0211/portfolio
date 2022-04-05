@@ -50,14 +50,73 @@ table {
         Defaults
 ****************************/
 body{
-    background-color: #d1a656;
+    background-color: #F2E8D6;
 }
-
+h1, h2, h3, h4, h5, h5, a{
+    font-family: "Krona One";
+}
+p{
+    font-family: "dm sans";
+    font-weight: lighter;
+}
+a{
+    text-decoration: none;
+    color:#2C4A56;
+    padding: 6px 0;
+}
+a:hover{
+    color:#cf828f;
+}
 .container{
-max-width:80%;
-padding: 20px;
-margin:0 auto ;
-background-color: #F2E8D6;
+    max-width:80%;
+    padding: 20px;
+    margin:0 auto;
+    background-color: #F2E8D6;
+}
+#nav{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
+    padding: 8px 0 8px 0;
+}
+h1{
+    font-size: 20pt;
+  
+}
+.active{
+    color:#cf828f;
+    text-decoration: underline;
+}
+#logo-blue-box{
+    width: 130px;
+}
+.front-img{
+    width:66%;
+    padding:0 10px;
+    margin-top: -192px;
+}
+#main-text{
+padding: 0 20px;
+max-width: 260px;
+margin: 0 auto;
+}
+#about-text{
+ padding: 0 20px;
+}
+#main, #about{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.social-icons{
+    width:70px;
+    padding:18px;
+}
+footer{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 /** COLOURS
