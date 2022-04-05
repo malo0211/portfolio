@@ -108,6 +108,13 @@ margin: 0 auto;
     flex-direction: row;
     align-items: flex-end;
 }
+.grid-imgs{
+    display:grid;
+    grid-template-columns: repeat(2,400px);
+    grid-gap: 30px;
+}
+
+
 .social-icons{
     width:70px;
     padding:18px;
