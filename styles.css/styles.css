@@ -52,17 +52,45 @@ table {
 body{
     background-color: #F2E8D6;
 }
-h1, h2, h3, h4, h5, h5, a{
+h1, h2, h3, h4, h5, h5, nav{
     font-family: "Krona One";
+    color:#2c4a56;
 }
-p{
+#nav a{
+    padding:10px;
+}
+p, footer, ul, li{
     font-family: "dm sans";
     font-weight: lighter;
+    line-height: 20px;
+    color:#2c4a56;
+}
+#footer-links{
+    font-family: "dm sans";
+    font-weight: lighter;
+    line-height: 20px;
+    color:#2c4a56;  
+}
+#bottom-links a{ 
+    font-family: "Krona One";
+    color:#2c4a56;
+}
+::placeholder{
+    font-family: "dm sans";
+    color: #2c4a56;
+    padding: 10px 0;
+}
+h1{
+    font-size: larger;
+    padding-bottom: 10px;
+}
+h2{
+    font-size: large;
+    padding-bottom: 10px;
 }
 a{
     text-decoration: none;
     color:#2C4A56;
-    padding: 6px 0;
 }
 a:hover{
     color:#cf828f;
@@ -71,17 +99,7 @@ a:hover{
     max-width:80%;
     padding: 20px;
     margin:0 auto;
-    background-color: #F2E8D6;
-}
-#nav{
-    display: flex;
-    flex-direction:column;
-    align-items: flex-end;
-    padding: 8px 0 8px 0;
-}
-h1{
-    font-size: 20pt;
-  
+    background-color: #f2e8d6;
 }
 .active{
     color:#cf828f;
@@ -90,41 +108,70 @@ h1{
 #logo-blue-box{
     width: 130px;
 }
+
+/*****************************
+            MOBILE
+*****************************/
+@media screen and (max-width: 480px){
+#nav{
+     display: flex;
+     flex-direction:row;
+     align-items: center;
+     justify-content: space-between;
+     padding-bottom: 20px;
+    } 
+    #nav2{
+        display:flex;
+        flex-grow: 1;
+        flex-direction:column;
+        align-items: flex-end;
+        }
+ #logo-blue-box{
+     width: 130px;
+    } 
 .front-img{
-    width:66%;
-    padding:0 10px;
-    margin-top: -192px;
+    display: none;
+    }
+.img{
+    width:100%;
 }
-#main-text{
-padding: 0 20px;
-max-width: 260px;
-margin: 0 auto;
+.portfolio-grid{
+    margin: 0 auto;
+    padding: 30px 0 10px;
 }
-#about-text{
- padding: 0 20px;
+.grid-container{
+    max-height: 500px;
+    overflow: scroll;
 }
-#main, #about{
-    display:flex;
-    flex-direction: row;
-    align-items: flex-end;
+.grid-item{
+    padding:6px 0;
 }
-
-.grid-imgs{
-    display:grid;
-    grid-template-columns: repeat(2,400px);
-    grid-gap: 30px;
-}
-
-
 .social-icons{
-    width:70px;
-    padding:18px;
+    max-width: 55px;
+}
+#soc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0 30px 0;
 }
 footer{
-    display:flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: center;
+    font-size: small;
+}
+ #footer-links{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: baseline;
+}
+#bottom-links{
+    text-align: end;
+    font-size: smaller;
+    padding:16px 0;
+}
+.hidden{
+    display: none;
+}
 }
 
 /** COLOURS
@@ -136,7 +183,7 @@ SECOND BACKGROUND
 light pink: #f0d3cb
 
 BACKGROUND
-light yellow:#cf828f
+light yellow:#f2e8d6
 
 darkest color??: #2c2d2d
 
