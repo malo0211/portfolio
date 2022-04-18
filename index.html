@@ -25,7 +25,20 @@
         </nav>
     </div>
     <div id="main">
-     <img class="front-img" src="images/2.jpg" alt="hands clasped over the ocean">
+    <picture> 
+        <source media="(min-width:1000px)" 
+                srcset="
+                images/front-img-722px.jpg,
+                images/front-img-1444px@2x.jpg 2x,
+                images/front-img-2166px@3x.jpg 3x">
+
+        <source media="(min-width:480px)" 
+                srcset="images/front-img-mobi@1x.jpg,
+                images/front-img-mobi@2x.jpg 2x,
+                images/front-img-mobi-1242px@3x.jpg 3x">
+    
+        <img src="images/2.jpg" alt="hands clasped over the ocean" class="front-img" >
+    </picture>
         <div id="main-text">
             <h1>Welcome!</h1>
             <p>I am a designer that specializes in making your small business stand out. From Brand Identity, to User Experience Design, Web Design, Graphics, and Photography, I've got you covered. </p>
@@ -44,7 +57,7 @@
                 <img class="img" src="images/3.jpg" alt="ok">
             </div>
             <div class="grid-item">
-                <img class="img" src="images/7.jpg" alt="ok">
+                <img class="img" src="images/9.jpg" alt="ok">
             </div>
           </div>     
     </article>

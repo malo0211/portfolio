@@ -329,7 +329,6 @@ label{
     }
 footer{
     font-size: small;
-    padding: 20px 0;
     }
  #footer-links{
     display: flex;
@@ -766,9 +765,6 @@ label{
     object-fit: cover;
     max-width: 100%;
     max-height: 100%;
-    }
-.grid-item2:hover{
-    background-color: aqua;
 }
 }
 
