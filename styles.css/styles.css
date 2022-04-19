@@ -49,6 +49,9 @@ table {
 /**************************** 
         Defaults
 ****************************/
+.container{
+    width:1050px;
+}
 body{
     background-color: #F2E8D6;
 }
@@ -719,8 +722,7 @@ ul{
     }
 #me-img{
     padding-top:20px;
-    width:60vw;
-    max-width: 1000px;
+    max-width: 600px;
     margin-top:-232px;
     }
 #about{
@@ -767,7 +769,6 @@ label{
     max-height: 100%;
 }
 }
-
 /** COLOURS
 
 HIGHLIGHTS/hover

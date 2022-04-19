@@ -25,11 +25,27 @@
          </nav>
      </div>
     <div id="about">
-        <img id="me-img" 
+        <picture> 
+
+            <source media="(min-width:1px)" 
+                    srcset="images/me-desktop-625px.jpg,
+                    images/me-desktop-1250px-2x.jpg 2x,
+                    images/me-desktop-1875px-3x.jpg 3x">
+        
+            <source media="(min-width:1025px)" 
+                    srcset="
+                    images/me-mobile-414px.jpg,
+                    images/me-mobile-828px-2x.jpg 2x,
+                    images/me-mobile-1242px-3x.jpg 3x">
+    
+            <img src="images/me-desktop-1875px-3x.jpg" alt="designer profile black and white" id="me-img" >
+        </picture>
+        <!--
+            <img id="me-img" 
         srcset="
         images/me-desktop-625px.jpg,
         images/me-desktop-1250px-2x.jpg 2x,
-        images/me-desktop-1875px-3x.jpg 3x" src="images/me-desktop-1875px-3x.jpg" alt="designer profile black and white">
+        images/me-desktop-1875px-3x.jpg 3x" src="images/me-desktop-1875px-3x.jpg" alt="designer profile black and white"> -->
            <div id="about-text">
                <h1>About</h1>
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum condimentum luctus. Fusce eu augue nec enim hendrerit fringilla eleifend id diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum condimentum luctus. Fusce eu augue nec enim hendrerit fringilla eleifend id diam. </p>
