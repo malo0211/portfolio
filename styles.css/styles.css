@@ -76,7 +76,7 @@ p, footer, ul, li{
     line-height: 20px;
     color:#2c4a56;  
 }
-#bottom-links a{ 
+#bottom-links a, #bottom-links1 a{ 
     font-family: "Krona One";
     color:#2c4a56;
 }
@@ -215,7 +215,7 @@ footer{
     align-items: flex-start;
     justify-content: start;
     }  
-#bottom-links{
+#bottom-links, #bottom-links1{
     text-align: end;
     font-size: smaller;
     padding:16px 20px;
@@ -273,9 +273,7 @@ ul{
 label{
     display:none;
     }
-#bottom-link{
-    text-align: end;
-}
+
 
 /********  work  **********/
 .portfolio-grid2{
@@ -352,6 +350,11 @@ footer{
     display:flex;
     justify-content: space-between;
     }
+#bottom-links1{
+        text-align: end;
+        font-size: smaller;
+        padding:16px 0;
+        }
 .grid-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -410,6 +413,7 @@ label{
 #bottom-link{
     text-align: end;
 }
+
 #contact-form{
     display:flex;
     flex-direction: row;
@@ -533,6 +537,11 @@ label{
         display:flex;
         justify-content: space-between;
         }
+        #bottom-links1{
+            text-align: end;
+            font-size: smaller;
+            padding:16px 0;
+            }
     .grid-container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -692,6 +701,11 @@ footer{
     display:flex;
     justify-content: space-between;
     }
+    #bottom-links1{
+        text-align: end;
+        font-size: smaller;
+        padding:16px 0;
+        }
 .grid-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -773,8 +787,8 @@ label{
 /*********** work **************/
 .grid-container2{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 50vh);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 50vh);
     gap:30px;
     padding:20px 0;
     }
