@@ -46,6 +46,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
 /**************************** 
         Defaults
 ****************************/
@@ -145,6 +147,7 @@ input[type=submit]:hover {
     color:#F2E8D6;
 }
 
+
 /*****************************
             MOBILE
 *****************************/
@@ -220,6 +223,7 @@ footer{
 .hidden{
     display: none;
     }
+
 /**************** info *******************/
 .img{
     width: 100%;
@@ -272,6 +276,7 @@ label{
 #bottom-link{
     text-align: end;
 }
+
 /********  work  **********/
 .portfolio-grid2{
     margin: 0 auto;
@@ -286,6 +291,7 @@ label{
     }
 
 }
+
 
 /*****************************
         tablet
@@ -357,6 +363,7 @@ footer{
     max-width: 100%;
     max-height: 100%;
 }
+
 /************* info *************/
 .img{
     width: 100%;
@@ -412,6 +419,7 @@ label{
 #about-text{
     max-width:500px;
 }
+
 /********* work ************/
 .portfolio-grid2{
         padding-top: 30px;
@@ -456,6 +464,8 @@ label{
     width:22vw;
 }    
 }
+
+
 /*****************************
         small desktop
 *****************************/
@@ -534,6 +544,7 @@ label{
         max-width: 100%;
         max-height: 100%;
     }
+
     /************* info *************/
     .img{
         width: 100%;
@@ -585,7 +596,8 @@ label{
         flex-direction: row;
         padding: 30px;
         justify-content: space-between;
-    }    
+    }  
+
     /*********** work *********/
     .portfolio-grid2{
         padding-top: 30px;
@@ -602,6 +614,7 @@ label{
         max-height: 100%;
     }
 }
+
 
 /*****************************
         large desktop
@@ -634,7 +647,7 @@ label{
 .front-img{
     width:60vw;
     max-width: 1000px;
-    margin-top:-232px;
+    margin-top:-206px;
     }
 #main{
     display:flex;
@@ -691,6 +704,7 @@ footer{
     max-width: 100%;
     max-height: 100%;
     }
+
 /************* info *************/
 .img{
     width: 100%;
@@ -729,11 +743,11 @@ ul{
     display:flex;
     flex-direction: row;
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-bottom: 40px;
     }
 #about-text{
-    padding:10px 0 0 30px;
+    padding:10px 0 0 16px;
     min-width: 100px;
     max-width: 340px;
     }
@@ -755,7 +769,8 @@ label{
     flex-direction: row;
     padding: 30px;
     justify-content: space-between;
-    }    
+    }   
+/*********** work **************/
 .grid-container2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
